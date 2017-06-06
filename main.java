@@ -23,13 +23,13 @@ public class main {
         if (make.compareTo("oldsmobile")==0)
         {
         //Oldsmobile Models
-          if (model.compareTo("")==0)
+          if (model.compareTo("cutlass")==0)
           {
-          
+            system.out.println("Oldsmobile Cutlass");
           }
-          esle if (model.compareTo("")==0)
+          else if (model.compareTo("eighty-eight")==0|| model.compareTo("88") ==0)
           {
-          
+            system.out.println("Oldsmobile Eighty-eight");
           }
         
         }
@@ -40,7 +40,7 @@ public class main {
           {
           
           }
-          esle if (model.compareTo("")==0)
+          else if (model.compareTo("")==0)
           {
           
           }
@@ -53,7 +53,7 @@ public class main {
           {
           
           }
-          esle if (model.compareTo("")==0)
+          else if (model.compareTo("")==0)
           {
           
           }
@@ -65,7 +65,7 @@ public class main {
           {
           
           }
-          esle if (model.compareTo("")==0)
+          else if (model.compareTo("")==0)
           {
           
           }
@@ -77,7 +77,7 @@ public class main {
           {
           
           }
-          esle if (model.compareTo("")==0)
+          else if (model.compareTo("")==0)
           {
           
           }
@@ -89,11 +89,15 @@ public class main {
           {
           
           }
-          esle if (model.compareTo("")==0)
+          else if (model.compareTo("")==0)
           {
           
           }
         }
+      else 
+      {
+        system.out.println("I don't like that car, try again.");
+      }
     }
 
 }
