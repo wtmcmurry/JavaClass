@@ -23,6 +23,7 @@ public class main {
         if (make.compareTo("oldsmobile")==0)
         {
         //Oldsmobile Models
+<<<<<<< HEAD
           if (model.compareTo("cutlass")==0)
           {
             system.out.println("Oldsmobile Cutlass");
@@ -30,6 +31,15 @@ public class main {
           else if (model.compareTo("eighty-eight")==0|| model.compareTo("88") ==0)
           {
             system.out.println("Oldsmobile Eighty-eight");
+=======
+          if (model.compareTo("")==0)
+          {
+          
+          }
+          esle if (model.compareTo("")==0)
+          {
+          
+>>>>>>> 7121907b60d4af9de11a44ceec96585fd055f2c7
           }
         
         }
@@ -40,7 +50,11 @@ public class main {
           {
           
           }
+<<<<<<< HEAD
           else if (model.compareTo("")==0)
+=======
+          esle if (model.compareTo("")==0)
+>>>>>>> 7121907b60d4af9de11a44ceec96585fd055f2c7
           {
           
           }
@@ -53,7 +67,11 @@ public class main {
           {
           
           }
+<<<<<<< HEAD
           else if (model.compareTo("")==0)
+=======
+          esle if (model.compareTo("")==0)
+>>>>>>> 7121907b60d4af9de11a44ceec96585fd055f2c7
           {
           
           }
@@ -65,7 +83,11 @@ public class main {
           {
           
           }
+<<<<<<< HEAD
           else if (model.compareTo("")==0)
+=======
+          esle if (model.compareTo("")==0)
+>>>>>>> 7121907b60d4af9de11a44ceec96585fd055f2c7
           {
           
           }
@@ -77,7 +99,11 @@ public class main {
           {
           
           }
+<<<<<<< HEAD
           else if (model.compareTo("")==0)
+=======
+          esle if (model.compareTo("")==0)
+>>>>>>> 7121907b60d4af9de11a44ceec96585fd055f2c7
           {
           
           }
@@ -89,11 +115,16 @@ public class main {
           {
           
           }
+<<<<<<< HEAD
           else if (model.compareTo("")==0)
+=======
+          esle if (model.compareTo("")==0)
+>>>>>>> 7121907b60d4af9de11a44ceec96585fd055f2c7
           {
           
           }
         }
+<<<<<<< HEAD
       else 
       {
         system.out.println("I don't like that car, try again.");
@@ -101,3 +132,8 @@ public class main {
     }
 
 }
+=======
+    }
+
+}
+>>>>>>> 7121907b60d4af9de11a44ceec96585fd055f2c7
